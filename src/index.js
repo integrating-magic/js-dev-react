@@ -1,9 +1,7 @@
-//Here we're importing items we'll need. You can add other imports here.
+import MyApp from "./myApp";
+import React from "react";
+import { createRoot } from "react-dom/client";
 
-//The first function. Remove this.
-const btn = document.querySelector("button");
-btn.onclick = function () {
-  alert("You ran some JavaScript");
-};
-
-//
+const container = document.getElementById("root");
+const root = createRoot(container);
+root.render(<MyApp />);

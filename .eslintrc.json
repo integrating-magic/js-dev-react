@@ -1,0 +1,10 @@
+{
+  "extends": ["eslint:recommended", "prettier"],
+
+  "rules": {
+    "no-var": "error",
+    "react/self-closing-comp": "error",
+  }
+}
+
+};

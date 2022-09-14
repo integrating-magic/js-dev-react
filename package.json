@@ -19,5 +19,9 @@
     "open": "^8.2.1",
     "parcel": "^2.2.0",
     "prettier": "2.6.2"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
