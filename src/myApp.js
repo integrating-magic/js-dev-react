@@ -20,7 +20,7 @@ const MyApp = () => {
       {text.map((text) => {
         return <Button setBtn={setBtn} text={text} />;
       })}
-      <h1>{btn}</h1>
+      <h1 className="px-5 text-4xl text-purple-600">{btn}</h1>
     </>
   );
 };
