@@ -7,6 +7,5 @@ registerLicense(
 );
 const container = document.getElementById("root");
 const root = createRoot(container);
-window.loadApp = () => {
+
   root.render(<BoothDiagram />);
-};
