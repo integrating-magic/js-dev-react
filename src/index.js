@@ -8,4 +8,9 @@ registerLicense(
 const container = document.getElementById("root");
 const root = createRoot(container);
 
-  root.render(<BoothDiagram />);
+root.render(<BoothDiagram />);
+
+const rect = document.getElementById("container_grid_rect");
+rect.style.fill = "gray";
+
+  
