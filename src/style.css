@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+rect #container_grid_rect {
+fill: #f5f5f5;
+}
+rect  {
+fill: #f5f5f5;
+}
