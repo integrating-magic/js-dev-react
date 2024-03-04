@@ -1,14 +1,14 @@
 //create a button function component. Export it so it can be used in other files
-export default function Button({ text, setBtn }) {
+export default function Button({ button, setBtn }) {
   return (
     <button
-      className="px-2 m-5 text-white bg-purple-800 rounded-xl"
+      className="px-3.5 py-2.5 text-white bg-purple-800 rounded-xl"
       onClick={() => {
-        setBtn(text);
+        setBtn(button.text);
         // FileMaker.PerformScript("Run Script", text);
       }}
     >
-      {text}
+      {button.btnText}
     </button>
   );
 }
