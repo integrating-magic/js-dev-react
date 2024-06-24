@@ -8,7 +8,7 @@ const buttons = [
   { text: "This is button 4", btnText: "Button 4" },
   { text: "This is button 5", btnText: "Button 5" },
 ];
-const App = () => {
+const App = ({ obj }) => {
   const [btn, setBtn] = useState("Click a button");
   return (
     <div>

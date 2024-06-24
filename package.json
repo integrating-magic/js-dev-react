@@ -10,6 +10,7 @@
     "build": "parcel build index.html",
     "upload": "node ./scripts/upload",
     "build:upload": "npm run build && npm run upload",
+    "deploy-to-fm": "npm run build && npm run upload",
     "openfile": "node ./scripts/openFileOnServer",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

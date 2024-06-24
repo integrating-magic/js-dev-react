@@ -2,7 +2,10 @@ import App from "./App";
 import React from "react";
 import { createRoot } from "react-dom/client";
 
-const container = document.getElementById("root");
-const root = createRoot(container);
+window.loadButtons = (json) => {
+  const obj = JSON.parse(json);
+  const container = document.getElementById("root");
+  const root = createRoot(container);
 
-root.render(<App />);
+  root.render(<App obj={obj} />);
+};
