@@ -4,7 +4,7 @@ export default function Button({ button, setBtn }) {
     <button
       className="px-3.5 py-2.5 text-white bg-purple-800 rounded-xl"
       onClick={() => {
-        setBtn(button.text);
+        setBtn(button);
         // FileMaker.PerformScript("Run Script", text);
       }}
     >
