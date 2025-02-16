@@ -5,9 +5,9 @@
   "license": "ISC",
   "description": "a generic development environment for developing JS in FileMaker",
   "scripts": {
-    "start": "parcel index.html  --no-source-maps",
+    "start": "vite",
     "browserslist": "> 0.5%, last 2 versions, not dead",
-    "build": "parcel build index.html",
+    "build": "vite build",
     "upload": "node ./scripts/upload",
     "build:upload": "npm run build && npm run upload",
     "deploy-to-fm": "npm run build && npm run upload",
@@ -18,13 +18,16 @@
     "eslint": "^8.16.0",
     "eslint-config-prettier": "^8.5.0",
     "open": "^8.2.1",
-    "parcel": "^2.8.2",
     "postcss": "^8.4.16",
     "prettier": "2.6.2",
     "process": "^0.11.10",
-    "tailwindcss": "^3.1.8"
+    "tailwindcss": "^3.1.8",
+    "vite": "^6.1.0",
+    "vite-plugin-css-injected-by-js": "^3.5.2",
+    "vite-plugin-singlefile": "^2.1.0"
   },
   "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
