@@ -8,7 +8,7 @@
     "start": "vite",
     "browserslist": "> 0.5%, last 2 versions, not dead",
     "build": "vite build",
-    "upload": "node ./scripts/upload",
+    "upload": "node ./scripts/upload.cjs",
     "build:upload": "npm run build && npm run upload",
     "deploy-to-fm": "npm run build && npm run upload",
     "openfile": "node ./scripts/openFileOnServer",
