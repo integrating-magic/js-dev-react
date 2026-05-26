@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-const config = require("../widget.config.cjs");
+const config = require("../widget.config.js");
 
 const { widgetName, uploadScript, file, server } = config;
 
