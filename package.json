@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "author": "jeremy@integratingmagic.io",
   "license": "ISC",
+  "type": "module",
   "description": "a generic development environment for developing JS in FileMaker",
   "scripts": {
     "start": "vite",
@@ -11,6 +12,7 @@
     "upload": "node ./scripts/upload.js",
     "build:upload": "npm run build && npm run upload",
     "deploy-to-fm": "npm run build && npm run upload",
+    "generate-script-steps": "node ./scripts/generate-script-steps.js",
     "openfile": "node ./scripts/openFileOnServer",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
