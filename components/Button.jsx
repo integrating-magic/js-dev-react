@@ -4,8 +4,8 @@ export default function Button({ button, setBtn, isActive }) {
     <button
       className={`px-3.5 py-2.5 text-white rounded-xl transition-all duration-200 ${
         isActive
-          ? "bg-purple-600 ring-2 ring-purple-300 shadow-lg scale-105"
-          : "bg-purple-800 hover:bg-purple-700"
+          ? "bg-red-600 ring-2 ring-purple-300 shadow-lg scale-105"
+          : "bg-red-800 hover:bg-purple-700"
       }`}
       onClick={() => {
         setBtn(button);
